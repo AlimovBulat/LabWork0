@@ -3,9 +3,16 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
+    
+    int i;
+    cin >> i;
+    cout << ( cout << "You have entered:\n", i);
+    return 0;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
